@@ -27,5 +27,11 @@ public class FanXingUpper {
 			System.out.println(it.next());
 		}
 	}
+	public static <T> void printCol(ArrayList<T> a1){
+		Iterator<T> it = a1.iterator();
+		while(it.hasNext()){
+			System.out.println(it.next().toString());
+		}
+	}
 
 }
